@@ -1,0 +1,24 @@
+.title__bio{
+    display: flex;
+    padding-top: 4rem;
+    font-size: 23px;
+    padding-left: 2rem;
+}
+
+
+@media screen and (min-width:0){
+    .title__bio{
+       font-size: 1em;
+       flex-direction: column;
+       flex-wrap: wrap;
+       margin: 5px;
+    }    
+}
+
+@media screen and (max-width:768px){
+    .title__subsection{
+        font-size: 23px;
+        padding-top: 4rem;
+        padding-left: 2rem;
+    }    
+}

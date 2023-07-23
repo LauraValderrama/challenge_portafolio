@@ -1,0 +1,22 @@
+.academic__title{
+    display: flex;
+    font-size: 28px;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width:0){
+    .academic__title{
+        font-size: 23px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .academic__title{
+        font-size: 28px;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+    }
+};

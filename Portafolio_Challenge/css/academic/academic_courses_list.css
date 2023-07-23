@@ -1,0 +1,22 @@
+.academic__courses_list{
+    display: flex;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+
+@media screen and (min-width:0){
+    .academic__courses_list{
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size:20px;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .academic__courses_list{
+        padding-left: 5px;
+        font-size: 25px;
+    }
+}

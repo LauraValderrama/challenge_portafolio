@@ -1,0 +1,18 @@
+.academic{
+    display: flex;
+    background: paleturquoise;
+    padding: 2rem;
+}
+
+@media screen and (min-width:0){
+    .academic{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .academic{
+        padding-left: 2rem;
+    }
+}

@@ -1,0 +1,22 @@
+.skills__box{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    padding-right: 20px;
+}
+
+@media screen and (min-width:0){
+    .skills__box{
+        font-size: 20px;
+        flex-direction: column;
+        flex-wrap: nowrap
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .skills__box{
+        flex-flow: column wrap;
+        align-content: space-between;
+        padding-right: 20px;
+    }
+};

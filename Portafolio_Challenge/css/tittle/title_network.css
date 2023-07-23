@@ -1,0 +1,24 @@
+.title__network{
+    display: flex;
+    font-size: 25px; 
+}
+
+.title__network:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width:0){
+    .title__network{
+        font-size: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .title__network{
+        font-size: 25px;
+        
+    }
+}

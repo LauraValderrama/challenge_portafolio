@@ -1,0 +1,24 @@
+.title__network__item{
+    display: flex;
+    padding-right: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width:0){
+    .title__network{
+        font-size: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .title__network{
+        font-size: 25px;
+        
+    }
+};

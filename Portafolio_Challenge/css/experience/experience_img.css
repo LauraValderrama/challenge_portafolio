@@ -1,0 +1,18 @@
+.experience__img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    
+}
+
+@media screen and (min-width:0){
+    .experience__img{
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .experience__img{
+        flex-wrap: wrap;
+    }
+}

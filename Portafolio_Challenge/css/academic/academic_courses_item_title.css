@@ -1,0 +1,15 @@
+.academic__courses_item_title{
+    display: flex;
+}
+
+@media screen and (min-width:0){
+    .academic__courses_item_title{
+        flex-direction: row;
+    }    
+}
+
+@media screen and (max-width: 768px){
+    .academic__courses_item_title{
+      
+    }
+}

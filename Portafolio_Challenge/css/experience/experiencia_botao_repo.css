@@ -1,0 +1,12 @@
+button{
+    display: flex;
+    font-size: 25px;
+    margin: 20px;
+    border: 2px solid;
+    background: rgb(68, 128, 238);
+    border-radius: 6px;
+}
+
+button:hover{
+    text-decoration:underline ;
+}

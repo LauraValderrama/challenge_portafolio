@@ -1,0 +1,26 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.title__div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width:0){
+    .title__div{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+}
+
+@media screen and (min-width:768px){
+    .title__div{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }    
+}
+

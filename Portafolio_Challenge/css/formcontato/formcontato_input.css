@@ -1,0 +1,9 @@
+.formcontato__input{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-left: 5rem;
+    width: 200px;
+    height: 30px;
+}

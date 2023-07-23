@@ -1,0 +1,21 @@
+.skills{
+    display: flex;
+    background: lightcyan;
+    padding: 2rem;
+    font-size: 25px;
+    padding-left: 4rem;
+}
+
+@media screen and (min-width:0){
+    .skills{
+        font-size: 20px;
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .skills{
+        padding: 2rem;
+        font-size: 25px;
+        padding-left: 4rem;
+    }
+};

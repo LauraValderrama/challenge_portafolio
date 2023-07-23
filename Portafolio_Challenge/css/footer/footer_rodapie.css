@@ -1,0 +1,9 @@
+.footer__rodapie{
+    display: flex;
+    margin: 10px;
+    font-size: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 45rem;
+}
+

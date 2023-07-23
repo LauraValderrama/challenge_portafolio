@@ -1,0 +1,5 @@
+.experience__box{
+    display: flex;
+    background: lightgoldenrodyellow;
+    flex-wrap: wrap;
+}

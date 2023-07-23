@@ -1,0 +1,18 @@
+.menu{
+    display: flex;
+    background: plum;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width:0){
+    .menu{
+        width: 100% ;
+    }    
+}
+
+@media screen and (min-width:768px){
+    .menu{
+        width: 100%;
+    }    
+}

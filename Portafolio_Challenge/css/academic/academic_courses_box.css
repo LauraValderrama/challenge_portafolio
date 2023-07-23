@@ -1,0 +1,21 @@
+.academic__courses__box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 40px;
+}
+
+@media screen and (min-width:0){
+    .academic__courses__box{
+        font-size: 20px;
+        flex-direction: row;
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .academic__courses__box{
+        flex-wrap: wrap;
+        padding-left: 2rem;
+        padding-right: 40px;
+    }
+};

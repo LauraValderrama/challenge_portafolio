@@ -1,0 +1,12 @@
+.menu__list__item{
+    display: flex;
+    padding-right: 2em;
+    padding: 1rem;
+    border: 5px;
+    font-size: 25px ;
+    flex-direction: row-reverse;
+}
+
+.menu__list__item:hover{
+    text-decoration: underline;
+}

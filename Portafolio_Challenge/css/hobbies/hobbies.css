@@ -1,0 +1,23 @@
+.hobbies{
+    display: flex;
+    font-size: 25px;
+    background: lightgrey;
+    padding: 2rem;
+    padding-left: 4rem;
+}
+
+@media screen and (min-width:0){
+    .hobbies{
+        font-size: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }    
+};
+
+@media screen and (max-width: 768px){
+    .hobbies{
+        padding: 2rem;
+        padding-left: 4rem;
+        font-size: 25px;
+    }
+};
